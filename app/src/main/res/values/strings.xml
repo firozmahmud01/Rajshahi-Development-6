@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Development Rajshahi-6</string>
+
+    <string name="package_name">com.firoz.mahmud.missionsof21</string>
+    <string name="reportmassege">আপনার মতামত এবং আপনার এলাকার উন্নয়নের জন্যে সরাসরি মন্ত্রী মহদয়ের কাছে আবেদন করুন।আর কোন মাধ্যম নয় আপনি নিযে আবেদন করুন,মত প্রকাশ করুন,নিজের অধিকার বুঝে নিন আমি আপনাদের সাথে আছি।</string>
+    <string name="bywhom">-জনাব মোঃ আলহাজ্জ শাহঅরিয়ার আলম\n(মাননীয় প্রতিমন্ত্রী পররাষ্ট্র মন্ত্রণালয়)</string>
+    <string name="_2_0">1.0</string>
+    <string name="developer_name">Firoz Mahmud</string>
+    <string name="developer_details">Android App Developer</string>
+    <string name="developer">Developer</string>
+    <string name="developer_phone_number">+8801713716821</string>
+    <string name="developer_company">Hash3Codes</string>
+    <string name="covid_19_test_registration">Covid-19 Test Registration</string>
+    <string name="abedon_karir_nam">আবেদনকারীর নাম</string>
+    <string name="pitar_nam">পিতার নাম</string>
+    <string name="jela">জেলা</string>
+    <string name="upojela">উপজেলা</string>
+    <string name="post">পোষ্ট</string>
+    <string name="joma_din">জমা দিন</string>
+    <string name="forget_password_text">Forgot your Password?\nDon\'t worry type your email and we will recover will recover it for you .</string>
+    <string name="email">Email</string>
+    <string name="send">Send</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="password">Password</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forget_password">Forget password?</string>
+    <string name="rajshahi_development_6">Rajshahi Development-6</string>
+    <string name="digital_bangladesh_is_a_nphilosophy_of_revolution">Digital Bangladesh is a\nPhilosophy of Revolution</string>
+    <string name="md_shahriar_alam_mp">Md Shahriar Alam MP</string>
+    <string name="arani_bagha_rajshahi">Arani,Bagha,Rajshahi</string>
+    <string name="https_shahriaralam_com">https://shahriaralam.com</string>
+    <string name="araf96_yahoo_co_uk">araf96@yahoo.co.uk</string>
+    <string name="email_or_phone_number">Email or phone number</string>
+    <string name="full_name">Full Name</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="verification">Verification</string>
+    <string name="otp_has_sent_to_your_nmobile_phone_please_it_below">OTP has sent to your\nmobile phone.Please it below</string>
+    <string name="verify">Verify</string>
+    <string name="haa">হ্যাঁ</string>
+    <string name="na">না</string>
+    <string name="latest_news">Latest News</string>
+    <string name="joruri_seba">জরুরি সেবা</string>
+    <string name="unnoyon_somuho">উন্নয়ন সমূহ</string>
+    <string name="user_name">User Name</string>
+    <string name="apnar_thana_upojela">আপনার থানা/উপজেলা</string>
+    <string name="unioner_nam">ইউনিয়নের নাম</string>
+    <string name="word_no">ওয়ার্ড নং</string>
+    <string name="ovijog_bisoy">অভিযোগের বিষয়</string>
+    <string name="zip_number">Zip number</string>
+    <string name="mobile_number">মোবাইল নম্বর</string>
+    <string name="ovijog_box">আপনার অভিযোগটি লিখুন</string>
+    <string name="unknown_user">Unknown User</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="age">
+        <item>Age</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+    </string-array>
+</resources>

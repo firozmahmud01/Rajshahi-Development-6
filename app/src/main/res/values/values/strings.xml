@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RAJ -6</string>
+
+    <string name="package_name">com.firoz.mahmud.missionsof21</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reportmassege">আপনার মতামত এবং আপনার এলাকার উন্নয়নের জন্যে সরাসরি মন্ত্রী মহদয়ের কাছে আবেদন করুন।আর কোন মাধ্যম নয় আপনি নিযে আবেদন করুন,মত প্রকাশ করুন,নিজের অধিকার বুঝে নিন আমি আপনাদের সাথে আছি।</string>
+    <string name="bywhom">-জনাব মোঃ আলহাজ্জ শাহঅরিয়ার আলম\n(মাননীয় প্রতিমন্ত্রী পররাষ্ট্র মন্ত্রণালয়)</string>
+</resources>

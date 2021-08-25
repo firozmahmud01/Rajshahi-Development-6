@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:icon="@drawable/nav_dashboard"
+    android:id="@+id/nav_dashboard" android:title="Dashboard"/>
+<!--    <item android:icon="@drawable/nav_notification"-->
+<!--        android:actionLayout="@layout/nav_action"-->
+<!--        android:id="@+id/nav_notification" android:title="Notification"/>-->
+    <item android:icon="@drawable/nav_progress_activity"
+        android:id="@+id/nav_progressactivity" android:title="Progress Activity"/>
+    <item android:icon="@drawable/nav_report"
+        android:id="@+id/nav_report" android:title="Report"/>
+    <item android:icon="@drawable/nav_profile"
+        android:id="@+id/nav_profile" android:title="Profile"/>
+    <item android:icon="@drawable/nav_info"
+        android:id="@+id/nav_about" android:title="About"/>
+
+</menu>

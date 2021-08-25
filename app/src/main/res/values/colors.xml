@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#0347DA</color>
+    <color name="backstart">#A6E48E</color>
+
+
+
+    <color name="recyclebluecolor">#3399FF</color>
+    <color name="recyclegreen">#2AC940</color>
+    <color name="recyclered">#FF5F58</color>
+    <color name="recycleorrenge">#F3CA3E</color>
+    <color name="recyclebeguni">#9C27B0</color>
+</resources>

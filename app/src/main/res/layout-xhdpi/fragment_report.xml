@@ -1,0 +1,181 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".Report">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+   <include
+       android:layout_width="match_parent"
+       layout="@layout/toolbarlay"
+       android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="25dp"
+            android:id="@+id/report_username_textview"
+            android:text="@string/user_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="40dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/report_address1_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="@string/apnar_thana_upojela"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/ic_edittext"
+        android:inputType="textPersonName"
+        android:paddingLeft="16dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/ic_edittext"
+                    android:hint="@string/unioner_nam"
+                    android:id="@+id/report_address2_edittext"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/ic_edittext"
+                    android:hint="@string/word_no"
+                    android:id="@+id/report_address3_edittext"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/report_name_editText"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="@drawable/ic_edittext"
+                    android:ems="10"
+                    android:hint="@string/ovijog_bisoy"
+                    android:inputType="textPersonName"
+                    android:paddingLeft="16dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:background="@drawable/ic_edittext"
+                        android:hint="@string/zip_number"
+                        android:layout_weight="1"
+                        android:layout_marginRight="8dp"
+                        android:inputType="number"
+                        android:id="@+id/report_zip_edittext"
+                        android:paddingLeft="16dp" />
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="45dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="8dp"
+                        android:id="@+id/report_number_edittext"
+                        android:background="@drawable/ic_edittext"
+                        android:hint="@string/mobile_number"
+                        android:inputType="number"
+                        android:paddingLeft="16dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                app:cardCornerRadius="25dp"
+                android:layout_weight="1"
+                android:elevation="8dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_height="200dp">
+            <EditText
+                android:id="@+id/report_details_editText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/report_details_back"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/ovijog_box"
+                android:inputType="textMultiLine"
+                android:paddingLeft="16dp"
+                android:paddingTop="16dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="32dp" />
+            </androidx.cardview.widget.CardView>
+            <ImageView
+                android:id="@+id/report_camera_imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:src="@drawable/ic_camera"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/report_attachment_imageview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:src="@drawable/attachment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/report_camera_imageView" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <Button
+            android:id="@+id/report_send_button"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/loginbutton"
+            android:text="@string/joma_din" />
+    </LinearLayout>
+</ScrollView>
